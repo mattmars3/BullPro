@@ -26,3 +26,10 @@
 body {
     background-image: url('Congrats.jpg');
 }
+
+#logo {
+   position: absolute;  
+   top: 10%;
+   right: 10%;
+    width: 40vh;
+}
