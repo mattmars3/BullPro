@@ -1,0 +1,31 @@
+#pageBody {
+
+}
+
+#imgSection {
+    text-align: left;
+}
+
+#imgSection img {
+    size: 60vh;
+}
+
+#questions {
+    flex-basis: 60%;
+}
+
+
+.question {
+    padding: 2%;
+    border-left: var(--lightGrey) 8px dotted;
+    border-bottom: var(--lightGrey) 6px dotted;
+    margin-bottom: 3%;
+}
+
+.question h2 {
+    font-size: 3.5vh;
+}
+
+.question p {
+    border: none;
+}
