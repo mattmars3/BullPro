@@ -1,28 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@400;700&family=Montserrat:wght@400;700&family=Roboto+Slab:wght@400;700&family=Zen+Dots&display=swap');
 
 :root {
-    --lightBlue: rgb(67, 102, 127);
-    --navyBlue: rgb(25, 57, 115);
-    --lightGrey: rgb(230, 230, 230);
-    --lightGreen: rgb(51, 204, 51);
-    --white: rgb(243, 243, 243);
-    --blueGrey: rgb(129, 145, 162);
+    --orange: #ff8700;
+    --lightOrange: #ffa977;
+    --lightGrey: #a5a5a5 ;
+    --darkGrey: #202732;
 }
 
 body {
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(white, grey);
+    background-image: linear-gradient(45deg, var(--darkGrey), black);
 }
 
 #checkoutBox {
-    background-color: var(--blueGrey);
+    background-image: linear-gradient(var(--lightOrange), var(--orange));
     border: 5px solid black;
     margin: 2% 25% 0 25%;
-    font-family: 'Lato';
+    font-family: 'Montserrat';
     padding: 1% 2% 1% 2%;
 
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
 .section {
@@ -34,14 +32,15 @@ body {
     margin: 0;
     text-align: center;
     font-size: 5vh;
-    background-color: var(--lightGrey);
     border-radius: 10px;
     border: 3px solid black;
     padding: 1%;
+    backdrop-filter: sepia(60%);
 }
 
 #checkoutBox h2 {
     font-size: 3vh; 
+    font-family: 'Roboto Slab';
 }
 
 #checkoutBox h3 {
@@ -51,7 +50,7 @@ body {
 
 #checkoutBox input {
     margin-left: 3%;
-    width: 20%;
+    width: 25%;
     font-size: 2vh;
     font-family: 'Lato';
     padding: .5%;
@@ -64,11 +63,12 @@ body {
     margin-top: 2%;
     text-align: center;
     border: 3px solid black;
-    border-radius: 20px;
+    border-radius: 10px;
 
     transition: .8s;
 }
 
 #orderButton:hover {
-    background-color: rgb(56, 174, 115);
+    background-color: var(--darkGrey);
+    color: white;
 }

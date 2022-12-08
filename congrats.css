@@ -1,9 +1,18 @@
-#congratBox {
-    margin: 30% 10% 10% 45%;
-    background-color: white;
-    border: 3px black solid;
-    padding: 2%;
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@400;700&family=Montserrat:wght@400;700&family=Roboto+Slab:wght@400;700&family=Zen+Dots&display=swap');
 
+:root {
+    --orange: #ff8700;
+    --lightOrange: #ffa977;
+    --lightGrey: #a5a5a5 ;
+    --darkGrey: #202732;
+}
+
+#congratBox {
+    margin: 5% 45% 30% 10%;
+    background-color: var(--orange);
+    border: 5px black solid;
+    padding: 2%;
+    font-family: 'Roboto Slab';
 }
 
 #congratBox h1 {
@@ -15,5 +24,5 @@
 }
 
 body {
-    background-image: url('Congrats.png');
+    background-image: url('Congrats.jpg');
 }
