@@ -125,3 +125,11 @@ body {
     backdrop-filter: invert(15%);
     padding: 0 1% 0 1%;
 }
+
+#technology {
+    text-align: center;
+}
+
+#technology img {
+    width: 60vh;
+}
